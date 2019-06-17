@@ -207,6 +207,29 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "GameTOP.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/GameTOP.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GameTOP.Interfaces.dll": {}
+        }
+      },
+      "GameTOP.Lib/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "GameTOP.Interfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GameTOP.Lib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GameTOP.Lib.dll": {}
+        }
       }
     }
   },
@@ -678,10 +701,22 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "GameTOP.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../GameTOP.Interface/GameTOP.Interfaces.csproj",
+      "msbuildProject": "../GameTOP.Interface/GameTOP.Interfaces.csproj"
+    },
+    "GameTOP.Lib/1.0.0": {
+      "type": "project",
+      "path": "../GameTOP.Lib/GameTOP.Lib.csproj",
+      "msbuildProject": "../GameTOP.Lib/GameTOP.Lib.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "GameTOP.Interfaces >= 1.0.0",
+      "GameTOP.Lib >= 1.0.0",
       "Microsoft.NETCore.App >= 2.2.0"
     ]
   },
@@ -717,7 +752,14 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ebili\\source\\repos\\ASPNETCore2Angular7\\ConsoleCore\\GameTOP.Interface\\GameTOP.Interfaces.csproj": {
+              "projectPath": "C:\\Users\\ebili\\source\\repos\\ASPNETCore2Angular7\\ConsoleCore\\GameTOP.Interface\\GameTOP.Interfaces.csproj"
+            },
+            "C:\\Users\\ebili\\source\\repos\\ASPNETCore2Angular7\\ConsoleCore\\GameTOP.Lib\\GameTOP.Lib.csproj": {
+              "projectPath": "C:\\Users\\ebili\\source\\repos\\ASPNETCore2Angular7\\ConsoleCore\\GameTOP.Lib\\GameTOP.Lib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

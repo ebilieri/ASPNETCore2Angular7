@@ -1,4 +1,6 @@
-namespace GameTOP
+using GameTOP.Interfaces;
+
+namespace GameTOP.Lib
 {
     public class Jogador2 : IJogador
     {
@@ -14,7 +16,7 @@ namespace GameTOP
 
         public string Passe()
         {
-            return "Maradona esta Psssando";
+            return "Maradona esta Passando";
         }
     }
 }

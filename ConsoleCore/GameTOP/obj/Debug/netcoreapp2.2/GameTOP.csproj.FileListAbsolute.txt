@@ -9,3 +9,8 @@ C:\Users\ebili\source\repos\ASPNETCore2Angular7\ConsoleCore\GameTOP\obj\Debug\ne
 C:\Users\ebili\source\repos\ASPNETCore2Angular7\ConsoleCore\GameTOP\obj\Debug\netcoreapp2.2\GameTOP.AssemblyInfo.cs
 C:\Users\ebili\source\repos\ASPNETCore2Angular7\ConsoleCore\GameTOP\obj\Debug\netcoreapp2.2\GameTOP.dll
 C:\Users\ebili\source\repos\ASPNETCore2Angular7\ConsoleCore\GameTOP\obj\Debug\netcoreapp2.2\GameTOP.pdb
+C:\Users\ebili\source\repos\ASPNETCore2Angular7\ConsoleCore\GameTOP\bin\Debug\netcoreapp2.2\GameTOP.Lib.dll
+C:\Users\ebili\source\repos\ASPNETCore2Angular7\ConsoleCore\GameTOP\bin\Debug\netcoreapp2.2\GameTOP.Lib.pdb
+C:\Users\ebili\source\repos\ASPNETCore2Angular7\ConsoleCore\GameTOP\obj\Debug\netcoreapp2.2\GameTOP.csproj.CopyComplete
+C:\Users\ebili\source\repos\ASPNETCore2Angular7\ConsoleCore\GameTOP\bin\Debug\netcoreapp2.2\GameTOP.Interfaces.dll
+C:\Users\ebili\source\repos\ASPNETCore2Angular7\ConsoleCore\GameTOP\bin\Debug\netcoreapp2.2\GameTOP.Interfaces.pdb

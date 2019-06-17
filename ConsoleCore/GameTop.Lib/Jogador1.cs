@@ -1,4 +1,6 @@
-namespace GameTOP
+using GameTOP.Interfaces;
+
+namespace GameTOP.Lib
 {
     public class Jogador1 : IJogador
     {
