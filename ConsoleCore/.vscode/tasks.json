@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/ConsoleCore/GameTOP/GameTOP.csproj"
+                "${workspaceFolder}/GameTOP/GameTOP.csproj"
             ],
             "problemMatcher": "$tsc"
         },
@@ -17,7 +17,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/ConsoleCore/GameTOP/GameTOP.csproj"
+                "${workspaceFolder}/GameTOP/GameTOP.csproj"
             ],
             "problemMatcher": "$tsc"
         },
@@ -28,7 +28,7 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/ConsoleCore/GameTOP/GameTOP.csproj"
+                "${workspaceFolder}/GameTOP/GameTOP.csproj"
             ],
             "problemMatcher": "$tsc"
         }
